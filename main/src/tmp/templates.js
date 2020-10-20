@@ -25,7 +25,7 @@ const index = () => {
         }
 
       </style>
-      <script type="text/javascript" src="https://cdn.bootcss.com/echarts/4.2.1/echarts.min.js"></script>
+      <script type="text/javascript" src="https://cdn.bootcdn.net/ajax/libs/echarts/4.8.0/echarts.min.js"></script>
     </head>
 
     <body>
@@ -33,9 +33,7 @@ const index = () => {
     </body>
 
   </html>
-  `
-}
-
-export {
-  index
+  `;
 };
+
+export {index};

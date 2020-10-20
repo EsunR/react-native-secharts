@@ -1,6 +1,6 @@
 import {toString} from './utils';
 
-const renderChart = (props) => {
+const renderChart = props => {
   const height = `${props.height || 400}px`;
   const width = props.width ? `${props.width}px` : 'auto';
   const backgroundColor = props.backgroundColor;
@@ -23,8 +23,7 @@ const renderChart = (props) => {
         });
         window.ReactNativeWebView.postMessage(JSON.stringify({"types":"ON_PRESS","payload": paramsString}));
       });
-    `
-}
-
+    `;
+};
 
 export default renderChart;
