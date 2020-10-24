@@ -466,8 +466,8 @@ define-property@^2.0.2:
 
 del@^6.0.0:
   version "6.0.0"
-  resolved "https://registry.npm.taobao.org/del/download/del-6.0.0.tgz?cache=0&sync_timestamp=1601076826324&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fdel%2Fdownload%2Fdel-6.0.0.tgz#0b40d0332cea743f1614f818be4feb717714c952"
-  integrity sha1-C0DQMyzqdD8WFPgYvk/rcXcUyVI=
+  resolved "http://192.168.2.153:4873/del/-/del-6.0.0.tgz#0b40d0332cea743f1614f818be4feb717714c952"
+  integrity sha512-1shh9DQ23L16oXSZKB2JxpL7iMy2E0S9d517ptA1P8iw0alkPtQcrKH7ru31rYtKwF499HkTu+DRzq3TCKDFRQ==
   dependencies:
     globby "^11.0.1"
     graceful-fs "^4.2.4"

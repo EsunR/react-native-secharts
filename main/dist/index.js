@@ -24,7 +24,7 @@ class Echarts extends Component {
         isFirstLoad: false,
       };
     } else {
-      state.setOption(props.option);
+      state.setOption(props.option, props.notMerge, props.lazyUpdate);
       return null;
     }
   }
